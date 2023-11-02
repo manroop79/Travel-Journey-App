@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.nav {
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 10px 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-image {
+  height: 20px;
+  max-width: 200px;
+  margin-left: 650px;
+}
+
+nav > p {
+  margin-left: 5px;
+}
+
+.travel {
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 20px; 
+  margin-top: 20px;
+}
+
+.travel-img {
+  max-width: 500px;
+  height: 500px;
+  border-radius: 5%;
+  margin: 20px 20px;
+}
+
+.travel-img-container {
+  flex: 0 0 200px; 
+  margin-right: 20px;
+}
+
+.travel-details {
+  flex: 1; 
+  margin-top: 0px;
+}
+
+.travel-location {
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 10px; 
+}
+
+.icon {
+  width: 20px; 
+  margin-right: 10px;
+}
+
+.travel-location > h4 {
+  letter-spacing: 0.3rem;
+  color: #F55A5A;
+}
+
+.go{
+  margin-left: 10px;
+  color: grey;
+}
+
+.travel-description > h2 {
+  font-size: 3rem; 
+  margin-bottom: 10px; 
+}
+
+.bold {
+  font-weight: bold; 
+}
+
+.travel-description > p {
+  margin-bottom: 10px; 
+}
+
+hr {
+  border: 1px solid #ccc; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
